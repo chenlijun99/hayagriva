@@ -81,7 +81,6 @@ pub enum PersonRole {
     Narrator,
 
     /// Various other roles described by the contained string.
-    #[serde(skip)]
     Unknown(String),
 }
 
